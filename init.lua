@@ -7,18 +7,19 @@ vim.opt.termguicolors = true
 
 vim.opt.list = true
 
-require("keymap")
-require("config.lazy")
+vim.opt.number = true
 
-vim.api.nvim_create_autocmd("BufWritePre", {
-    pattern = "*",
-    callback = function()
-        -- Remove trailing whitespace
-        vim.cmd([[%s/\s\+$//e]])
-        -- Remove all EOF Lines
-	vim.cmd([[%s/\($\n\s*\)\+\%$//e]])
-	-- Insert Final New Line
-        vim.api.nvim_buf_set_lines(0, -1, -1, true, { "" })
-    end,
-})
+vim.g.lazyvim_mini_snippets_in_completion = true
+
+require('keymap')
+require('config.lazy')
+require('config.menus')
+require('config.mason')
+require('config.format_on_save')
+require('config.final_new_line')
+require('config.spelling')
+require('config.tabline')
+require('config.nvimtree')
+require('config.pqf')
+require('lsp_init')
 
