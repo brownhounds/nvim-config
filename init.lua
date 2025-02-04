@@ -21,5 +21,6 @@ require('config.spelling')
 require('config.tabline')
 require('config.nvimtree')
 require('config.pqf')
+require('config.folds')
 require('lsp_init')
 
