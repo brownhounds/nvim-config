@@ -42,3 +42,6 @@ c0                              Choose none
 ]x                              Move to previous conflict
 [x                              Move to next conflict
 
+### Notes
+- Visual Mode and % <======
+

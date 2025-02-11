@@ -1,4 +1,4 @@
-local config = require('lspconfig')
+local config = require("lspconfig")
 
-config.lua_ls.setup {}
-
+config.lua_ls.setup({})
+config.ts_ls.setup({})
