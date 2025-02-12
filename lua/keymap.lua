@@ -63,5 +63,4 @@ local config_path = vim.fn.stdpath("config") .. "/keybinds.md"
 vim.api.nvim_set_keymap("n", "<leader>k", ":view " .. config_path .. "<CR>", { noremap = true, silent = true })
 
 -- Git Conflict
-
 vim.api.nvim_set_keymap("n", "c-q", ":GitConflictListQf<CR>", { noremap = true, silent = true })

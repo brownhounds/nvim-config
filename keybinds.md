@@ -1,3 +1,10 @@
+## LSP
+CTRL + Shift + ]                Go to definition
+grr                             References
+grn                             Rename Symbol
+Shift + K                       Show Symbol Documentation
+
+
 ## Nvim Tree
 Leader + b                      Open/Close
 CTRL + t                        Open file in new tab

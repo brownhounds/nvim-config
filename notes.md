@@ -32,9 +32,6 @@ return config
 git config --global core.editor "nvim"
 git config --global sequence.editor "nvim"
 ```
-- [] Lsp Key Bindings
-
-Go to previous buffer ctrl + o :yay:
 
 ## Hyper-V mount a drive over sshfs
 
