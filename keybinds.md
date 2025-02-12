@@ -2,8 +2,7 @@
 CTRL + Shift + ]                Go to definition
 grr                             References
 grn                             Rename Symbol
-Shift + K                       Show Symbol Documentation
-
+Shift + K                       Show Symbol Documentationi
 
 ## Nvim Tree
 Leader + b                      Open/Close
