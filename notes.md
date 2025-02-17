@@ -16,6 +16,9 @@ config.font = wezterm.font 'FiraCode Nerd Font'
 config.font_size = 14
 config.line_height = 1.25
 
+-- macos only
+config.send_composed_key_when_left_alt_is_pressed = true
+
 config.window_padding = {
   left = 0,
   right = 0,
@@ -39,5 +42,5 @@ git config --global sequence.editor "nvim"
 - mount a network drive: `\\sshfs\user@host`
 
 ## Conflict diff view like vscode
-- https://github.com/akinsho/git-conflict.nvim
 
+- https://github.com/akinsho/git-conflict.nvim
