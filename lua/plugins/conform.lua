@@ -6,13 +6,10 @@ return {
 
     conform.setup({
       formatters_by_ft = {
-        javascript = { "eslint_d" },
-        typescript = { "eslint_d" },
-        css = { "prettier" },
-        html = { "prettier" },
-        json = { "prettier" },
-        yaml = { "prettier" },
+        javascript = { "biome" },
+        typescript = { "biome" },
         lua = { "stylua" },
+        c = { "clang-format" },
       },
       format_on_save = {
         lsp_fallback = true,
