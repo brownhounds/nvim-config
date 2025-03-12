@@ -64,3 +64,6 @@ vim.api.nvim_set_keymap("n", "<leader>k", ":view " .. config_path .. "<CR>", { n
 
 -- Git Conflict
 vim.api.nvim_set_keymap("n", "c-q", ":GitConflictListQf<CR>", { noremap = true, silent = true })
+
+-- Show Lsp Errors In a Float
+vim.api.nvim_set_keymap("n", "<F10>", ":lua vim.diagnostic.open_float()<CR>", { noremap = true, silent = true })
